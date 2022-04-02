@@ -32,6 +32,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
     
 }
 #nav {
@@ -81,12 +82,14 @@ html {
 #nav li:hover .subnav {
     display: block;
 }
+#header .mobile-search ,
 #header .search-love {
     float: right;
     color: aqua;
     line-height: 50px;
     padding: 0 17px;
 }
+#header .mobile-search:hover ,
 #header .search-love:hover {
     color: rgb(1, 0, 14);
     background-color: rgb(218, 55, 14);

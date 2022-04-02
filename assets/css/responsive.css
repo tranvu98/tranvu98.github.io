@@ -1,0 +1,36 @@
+/* pc */
+@media (min-width:1024px) {
+    #header .mobile-search {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* mobile */
+@media (max-width:740px) {
+    #header .search-love {
+        display: none;
+    }
+    #nav > li {
+        display: block;
+    }
+    .col-third {
+        width: 100%;
+        margin-top: 16px;
+    }
+    #content .happy-list {
+        margin: 0 15px;
+    }
+    #content .marrie-left {
+        font-size: 15px;
+    }
+    #content .marrie-left p {
+        margin-top: 20px;
+    }
+}
